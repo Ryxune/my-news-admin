@@ -1,9 +1,6 @@
 <template>
   <div class="wrap">
-    <i class="el-icon-edit"></i>
-    <i class="el-icon-share"></i>
-    <i class="el-icon-delete"></i>
-    <el-button type="primary" icon="el-icon-search">搜索</el-button>
+    <router-view></router-view>
   </div>
 </template>
 
@@ -12,4 +9,21 @@ export default {};
 </script>
 
 <style>
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul,li,ol {
+  list-style: none;
+}
+
+em,i  {
+  font-style: normal;
+}
 </style>
